@@ -28,6 +28,8 @@ O relatório final (formato IEEE) está em:
 │ └─ hw2_models_summary.csv # resumo de RMSE e R² no teste
 └─ README.md
 
+markdown
+Copiar código
 
 Se por alguma razão o dataset não puder ser incluído diretamente,
 o diretório `data/` conterá um script ou instruções para baixá-lo.
@@ -51,6 +53,8 @@ pandas
 scikit-learn
 matplotlib
 
+yaml
+Copiar código
 
 ---
 
@@ -60,17 +64,29 @@ matplotlib
 
 python -m venv .venv
 
+bash
+Copiar código
+
 Linux/macOS:
+
 source .venv/bin/activate
 
-Windows:
-..venv\Scripts\activate
+makefile
+Copiar código
 
+Windows:
+
+.\venv\Scripts\activate
+
+shell
+Copiar código
 
 ### 2. Instalar dependências
 
 pip install -r requirements.txt
 
+css
+Copiar código
 
 ### 3. Preparar dados
 
@@ -81,7 +97,8 @@ Em seguida, executar:
 
 python code/hw2_preprocess_melbourne.py
 
-
+markdown
+Copiar código
 
 Este script:
 
@@ -98,7 +115,8 @@ Este script:
 
 python code/hw2_models_melbourne.py
 
-
+markdown
+Copiar código
 
 Este script:
 
@@ -120,7 +138,8 @@ bibtex hw2_regression_Melbourne
 pdflatex hw2_regression_Melbourne.tex
 pdflatex hw2_regression_Melbourne.tex
 
-
+yaml
+Copiar código
 
 O PDF resultante deve ser igual ao entregue à disciplina.
 
