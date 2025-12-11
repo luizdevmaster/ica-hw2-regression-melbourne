@@ -12,6 +12,8 @@ O relatório final (formato IEEE) está em:
 ---
 
 ## Estrutura do repositório
+```shell
+  $ tree
 .
 ├─ report/
 │ ├─ hw2_regression_Melbourne.tex # fonte LaTeX do relatório
@@ -26,7 +28,7 @@ O relatório final (formato IEEE) está em:
 │ ├─ test_preprocessed.csv # teste após log(PP) e padronização
 │ └─ hw2_models_summary.csv # resumo de RMSE e R² no teste
 └─ README.md
-
+```
 ---
 
 ## Dependências
