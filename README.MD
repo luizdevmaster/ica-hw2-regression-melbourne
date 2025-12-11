@@ -12,7 +12,6 @@ O relatório final (formato IEEE) está em:
 ---
 
 ## Estrutura do repositório
-
 .
 ├─ report/
 │ ├─ hw2_regression_Melbourne.tex # fonte LaTeX do relatório
@@ -27,12 +26,6 @@ O relatório final (formato IEEE) está em:
 │ ├─ test_preprocessed.csv # teste após log(PP) e padronização
 │ └─ hw2_models_summary.csv # resumo de RMSE e R² no teste
 └─ README.md
-
-markdown
-Copiar código
-
-Se por alguma razão o dataset não puder ser incluído diretamente,
-o diretório `data/` conterá um script ou instruções para baixá-lo.
 
 ---
 
@@ -52,41 +45,21 @@ numpy
 pandas
 scikit-learn
 matplotlib
-
-yaml
-Copiar código
-
 ---
 
 ## Como executar o código
 
 ### 1. Criar ambiente virtual (opcional, mas recomendado)
-
 python -m venv .venv
 
-bash
-Copiar código
-
 Linux/macOS:
-
 source .venv/bin/activate
 
-makefile
-Copiar código
-
 Windows:
-
 .\venv\Scripts\activate
 
-shell
-Copiar código
-
 ### 2. Instalar dependências
-
 pip install -r requirements.txt
-
-css
-Copiar código
 
 ### 3. Preparar dados
 
@@ -96,9 +69,6 @@ Colocar o arquivo original `Data-Melbourne_F.csv` em algum diretório
 Em seguida, executar:
 
 python code/hw2_preprocess_melbourne.py
-
-markdown
-Copiar código
 
 Este script:
 
@@ -114,10 +84,6 @@ Este script:
 ### 4. Rodar os modelos
 
 python code/hw2_models_melbourne.py
-
-markdown
-Copiar código
-
 Este script:
 
 - carrega `train_preprocessed.csv` e `test_preprocessed.csv`;
@@ -130,24 +96,10 @@ Este script:
 - salva `outputs_hw2/hw2_models_summary.csv`, usado pelo LaTeX
   para gerar a tabela de resultados.
 
-### 5. Compilar o relatório (opcional)
-
-cd report
-pdflatex hw2_regression_Melbourne.tex
-bibtex hw2_regression_Melbourne
-pdflatex hw2_regression_Melbourne.tex
-pdflatex hw2_regression_Melbourne.tex
-
-yaml
-Copiar código
-
-O PDF resultante deve ser igual ao entregue à disciplina.
-
----
-
 ## Contribuições
 
 Trabalho individual. Todas as etapas do projeto (limpeza de dados, implementação
 dos modelos, análise dos resultados e escrita do relatório) foram realizadas por:
 
 - **Luiz Augusto Gomes da Silva de Jesus**
+
