@@ -17,7 +17,6 @@ O relatório final (formato IEEE) está em:
 .
 ├─ report/
 │ ├─  hw2_regression_Melbourne.pdf # relatório final em PDF
-│ 
 ├─ code/
 │ ├─ hw2_preprocess_melbourne.py # limpeza do CSV bruto e pré-processamento
 │ └─ hw2_models_melbourne.py # treino dos modelos e geração dos resultados
